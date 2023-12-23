@@ -6,6 +6,10 @@ public class Vehicle {
     private int currentSpeed; // currSpeed of the vehicle
     private int currentDirection; // which Direction the vehicle is going to
 
+    public String getName(){
+        return name;
+    }
+
     public int getCurrentSpeed() {
         return currentSpeed;
     }
